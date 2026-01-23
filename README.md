@@ -22,7 +22,7 @@ Build a virtualized Windows Domain Environment to practice the fundamentals of S
 ---
 
 ## 📸 Screenshots
-
+![Screenshot][screenshots/WS-Installation.png]
 ---
 
 ## 📚 What I Learned
