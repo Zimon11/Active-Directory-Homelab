@@ -1,5 +1,25 @@
-PROJECT TITLE
+# Project Title
 Active Directory Homelab hands-on practice
 
-OBJECTIVE
+## 📌 Objectives
 A Documentation of my Active Directory handson practices
+
+---
+
+## 🖥️ Environment
+
+---
+
+## 🏗️ Lab Architecture
+
+---
+
+## ⚙️ Implementation Summary
+
+---
+
+## 📸 Screenshots
+
+---
+
+## 📚 What I Learned
