@@ -22,6 +22,7 @@ Build a virtualized Windows Domain Environment to practice the fundamentals of S
 ---
 
 ## 📸 Screenshots
+
 ![Screenshot](screenshots/Windows-Server-Installation/WS-Installation-1.png)
 ---
 
