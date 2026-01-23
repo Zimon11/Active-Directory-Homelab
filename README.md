@@ -1,5 +1,4 @@
-# Project Title
-Active Directory Homelab hands-on practice
+# Project Title: Active Directory Homelab hands-on practice
 
 ## 📌 Objectives
 A Documentation of my Active Directory handson practices
