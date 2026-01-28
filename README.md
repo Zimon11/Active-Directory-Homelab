@@ -85,6 +85,8 @@ Below are the documented screenshots of Active Directory, Configurations, Securi
 - Reconfigured the server’s DNS settings to point to its own IP address.
 - This ensures the Domain Controller uses itself as the primary DNS server, which is required for proper Active Directory functionality and domain name resolution.
 
+![Screenshot of VMs](screenshots/DC-Promote/DNS-test.png)
+- Tested DNS functionality by resolving the domain name to confirm proper name resolution.
 ---
 
 ## 📚 What I Learned
