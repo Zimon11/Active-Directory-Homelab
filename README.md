@@ -70,7 +70,7 @@ Below are the documented screenshots of Active Directory, Configurations, Securi
 ![Screenshot of VMs](screenshots/DC-Promote/DC-promote3.png)
 - Configured the server to install and integrate DNS services with Active Directory.
 
-![Screenshot of VMs](screenshots/DC-Promote/DC-promote3.png)
+![Screenshot of VMs](screenshots/DC-Promote/DC-promote4.png)
 - Set the domain and NetBIOS name for the Active Directory environment.
 
 ![Screenshot of VMs](screenshots/DC-Promote/DC-promote5.png)
