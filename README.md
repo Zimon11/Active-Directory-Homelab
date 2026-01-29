@@ -103,7 +103,7 @@ Below are the documented screenshots of Active Directory, Configurations, Securi
 - Create a User for the IT Department.
 
 ![Screenshot](screenshots/Creating-OUs/OU-Creation6.png)
-- Filled up the users information for his/her user account.
+- Filled up the users information for their user account.
 
 ![Screenshot](screenshots/Creating-OUs/OU-Creation7.png)
 - Created a strong password for the User.
@@ -112,4 +112,58 @@ Below are the documented screenshots of Active Directory, Configurations, Securi
 ![Screenshot](screenshots/Creating-OUs/OU-Creation8.png)
 - This image shows that the user is successfully created.
 ---
+### Step 4: Set up client computer and join it into domain
+![Screenshot](screenshots/Configuring-Windows-Client/Configure-WC1.png)
+- Installed Windows 11 client and configured its DNS to point to the Domain Controller’s IP address in preparation for domain joining.
+
+![Screenshot](screenshots/Configuring-Windows-Client/Configure-WC2.png)
+- Verified DNS communication between the client and the Domain Controller.
+
+![Screenshot](screenshots/Configuring-Windows-Client/Configure-WC3.png)
+- Renamed the client computer for proper identification before joining the domain.
+
+![Screenshot](screenshots/Domain-join/DomainJoin1.png)
+- Navigated to the Settings>System>About>Advance System Settings.
+
+![Screenshot](screenshots/Domain-join/DomainJoin2.png)
+- Selected the Domain option and entered the domain name adlab.local.
+
+![Screenshot](screenshots/Domain-join/DomainJoin3.png)
+- Entered credentials of an account authorized to join computers to the domain.
+- (For this lab, the built-in Administrator account was used. In production environments, a delegated account is recommended.)
+
+![Screenshot](screenshots/Domain-join/DomainJoin4.png)
+- The client computer was successfully joined to the domain.
+
+### Step 4.1: Domain user logon test and troubleshooting
+![Screenshot](screenshots/Troubleshoot/Troubleshoot8.jpg)
+- Attempted to log in using the domain user created in Step 3.1.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot9.jpg)
+- The login failed with a Remote Desktop Services-related error due to missing user logon rights.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot10.jpg)
+- To fix the issue I logged-in in the client using either Local Administrator or the Domains Administrator account in this picture I logged-in as a Local Administrator.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot1.png)
+- Opened the Local Security Policy console using secpol.msc.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot2.png)
+- Added the Domain users group in the **Allow Log on locally** policy.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot3.png)
+- Entered domain administrator credentials to apply the change.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot5.png)
+- Also added the same group in **Allow log on through Remote Desktop Services** policy.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot6.png)
+- Applied the changes by typing the command **gpupdate /force** in the command line then restart.
+
+![Screenshot](screenshots/Troubleshoot/Troubleshoot7.png)
+- Logged-in again using the Domain user account and it worked.
+
+⚠️Note: This local configuration was applied only for troubleshooting. In later steps, logon rights will be centrally managed using Group Policy and security groups to follow enterprise best practices.
+---
+
 ## 📚 What I Learned
