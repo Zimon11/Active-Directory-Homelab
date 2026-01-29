@@ -163,7 +163,7 @@ Below are the documented screenshots of Active Directory, Configurations, Securi
 ![Screenshot](screenshots/Troubleshoot/Troubleshoot7.png)
 - Logged-in again using the Domain user account and it worked.
 
-⚠️Note: This local configuration was applied only for troubleshooting. In later steps, logon rights will be centrally managed using Group Policy and security groups to follow enterprise best practices.
+### ⚠️Note: This local configuration was applied only for troubleshooting. In later steps, logon rights will be centrally managed using Group Policy and security groups to follow enterprise best practices.
 ---
 
 ## 📚 What I Learned
