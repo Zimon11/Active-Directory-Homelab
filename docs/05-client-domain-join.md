@@ -1,5 +1,5 @@
 
-⬅️ [Previous: Client Domain join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
+⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
 
 # 💻 Client Configuration and Domain Join
 
@@ -27,4 +27,4 @@
 - The client computer was successfully joined to the domain.
 
 
-⬅️ [Previous: Client Domain join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
+⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
