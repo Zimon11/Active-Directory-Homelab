@@ -1,3 +1,6 @@
+---
+⬅️ [Previous: Client Domain join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
+---
 # 💻 Client Configuration and Domain Join
 
 ### Step 4: Set up client computer and join it into domain
@@ -22,3 +25,7 @@
 
 ![Screenshot](../screenshots/Domain-join/DomainJoin4.png)
 - The client computer was successfully joined to the domain.
+
+---
+⬅️ [Previous: Client Domain join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
+---

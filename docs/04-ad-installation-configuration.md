@@ -1,3 +1,6 @@
+---
+⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)
+---
 # 🧩 Active Directory Configuration
 
 ### Step:2.1 Installing Active Directory Domain Services
@@ -55,3 +58,7 @@
 
 ![Screenshot](../screenshots/Creating-OUs/OU-Creation8.png)
 - This image shows that the user is successfully created.
+
+---
+⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)
+---

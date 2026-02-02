@@ -1,3 +1,6 @@
+---
+⬅️ [Previous: Groups and GPO](07-groups-and-gpo.md) | [Next: Lessons Learned ➡️](08-lessons-learned.md)
+---
 # 🔐 Groups and Group Policy (AGDLP)
 
 ### Step 5: Creating groups and applying GPOs
@@ -73,3 +76,7 @@
 
 ![Screenshot](../screenshots/Creating-GPO/UpdateGPO2.png)
 - In this image I logged in as the Domain user and open CMD As administrator to check if the policy is already applied.
+
+---
+⬅️ [Previous: Groups and GPO](07-groups-and-gpo.md) | [Next: Lessons Learned ➡️](08-lessons-learned.md)
+---

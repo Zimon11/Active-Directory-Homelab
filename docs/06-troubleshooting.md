@@ -1,3 +1,6 @@
+---
+⬅️ [Previous: Troubleshooting](06-troubleshooting.md) | [Next: Groups and GPO ➡️](07-groups-and-gpo.md)
+---
 # 🛠️ Troubleshooting
 
 ### Step 4.1: Domain user logon test and troubleshooting
@@ -29,3 +32,7 @@
 - Logged-in again using the Domain user account and it worked.
 
 ### ⚠️Note: This local configuration was applied only for troubleshooting. In later steps, logon rights will be centrally managed using Group Policy and security groups to follow enterprise best practices.
+
+---
+⬅️ [Previous: Troubleshooting](06-troubleshooting.md) | [Next: Groups and GPO ➡️](07-groups-and-gpo.md)
+---
