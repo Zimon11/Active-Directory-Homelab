@@ -1,5 +1,5 @@
 
-⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)
+⬅️ [Previous: Installation](03-installation.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)
 
 # 🧩 Active Directory Configuration
 
@@ -60,4 +60,4 @@
 - This image shows that the user is successfully created.
 
 
-⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)
+⬅️ [Previous: Installation](03-installation.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)

@@ -1,6 +1,6 @@
 
 [Next: Lab Architecture ➡️](02-lab-architecture.md)
----
+
 # 📘 Introduction
 
 This project is a personal hands-on activity on Active Directory Domain Services homelab created to strengthen the and gain practical knowledge of Windows System Administration, fundamentals of cybersecurity, and enterprises real world environment.
@@ -12,5 +12,5 @@ The lab focuses on:
 - Troubleshooting real-world domain issues
 
 All steps are documented with screenshots as proof of implementation.
----
+
 [Next: Lab Architecture ➡️](02-lab-architecture.md)
