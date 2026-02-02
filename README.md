@@ -29,7 +29,7 @@ organizational unit design, group-based access control, and Group Policy.
 - [Introduction](docs/01-introduction.md)
 - [Lab Architecture](docs/02-lab-architecture.md)
 - [Installation & Initial Setup](docs/03-installation.md)
-- [Active Directory Configuration](docs/04-active-directory-configuration.md)
+- [Active Directory Configuration](docs/04-ad-installation-configuration.md)
 - [Client Domain Join](docs/05-client-domain-join.md)
 - [Troubleshooting](docs/07-troubleshooting.md)
 - [Groups and Group Policy (AGDLP)](docs/06-groups-and-gpo.md)
