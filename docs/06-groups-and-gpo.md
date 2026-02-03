@@ -19,7 +19,7 @@
 ![Screenshot](../screenshots/Creating-groups/CreateGroup5.png)
 - This image shows all of the groups of the Department OU inside of the Global group OU.
 
-![Screenshot]../screenshots/Creating-groups/CreateGroup6.png)
+![Screenshot](../screenshots/Creating-groups/CreateGroup6.png)
 - This image shows the group of the Admin Groups inside of the Global group OU.
 
 ![Screenshot](../screenshots/Creating-groups/CreateGroup7.png)
