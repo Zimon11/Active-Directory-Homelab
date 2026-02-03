@@ -1,4 +1,3 @@
-
 ⬅️ [Previous: Lab Architecture](02-lab-architecture.md) | [Next: Active Directory Installation and Configuration ➡️](04-ad-installation-configuration.md)
 
 # ⚙️ Installation and Initial Setup

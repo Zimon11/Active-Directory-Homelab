@@ -2,9 +2,9 @@
 
 # 🛠️ Troubleshooting
 
-### Step 4.1: Domain user logon test and troubleshooting
+### Step 6: Domain user logon test and troubleshooting
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot8.jpg)
-- Attempted to log in using the domain user created in Step 3.1.
+- Attempted to log in using the domain user created in Step 3 [Active Directory Installation and configuration](04-ad-installation-configuration.md).
 
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot9.jpg)
 - The login failed with a Remote Desktop Services-related error due to missing user logon rights.
@@ -30,6 +30,6 @@
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot7.png)
 - Logged-in again using the Domain user account and it worked.
 
-### ⚠️Note: This local configuration was applied only for troubleshooting. In later steps, logon rights will be centrally managed using Group Policy and security groups to follow enterprise best practices.
+### ⚠️Note: This local configuration was applied only for troubleshooting. In the last steps, logon rights was centrally managed using Group Policy and security groups to follow enterprise best practices.
 
 ⬅️ [Previous: Groups and GPO](06-groups-and-gpo.md) | [Next: Lessons Learned➡️](08-lessons-learned.md)
