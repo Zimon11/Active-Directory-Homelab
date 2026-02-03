@@ -44,6 +44,7 @@
 ### Step 5.2: Nesting Global security groups in Domain Local Groups
 ![Screenshot](../screenshots/AddingUsersToGroups/NestedGroups1.png)
 - Global group of each department is nested inside of the domain local group to access the specific feature that the domail local group has and these Domain Local groups will later be used in GPO assignments to grant specific permissions.
+
 ![Screenshot](../screenshots/AddingUsersToGroups/NestedGroups3.png)
 - This image list the all of the members in each of the Domain local groups the Access Groups and Admin Groups.
 
