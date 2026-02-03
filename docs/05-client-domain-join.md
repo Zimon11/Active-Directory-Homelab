@@ -1,5 +1,4 @@
-
-⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
+⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Groups and GPO ➡️](06-groups-and-gpo.md)
 
 # 💻 Client Configuration and Domain Join
 
@@ -27,4 +26,4 @@
 - The client computer was successfully joined to the domain.
 
 
-⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Troubleshooting ➡️](06-troubleshooting.md)
+⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Groups and GPO ➡️](06-groups-and-gpo.md)
