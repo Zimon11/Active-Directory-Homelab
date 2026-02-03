@@ -1,8 +1,8 @@
-⬅️ [Previous: Client Domain Join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](07-troubleshooting.md)
+⬅️ [Previous: Client Domain Join](05-client-domain-join.md) | [Next: Testing and Troubleshooting ➡️](07-testing-and-troubleshooting.md)
 
-# 🔐 Groups and Group Policy (AGDLP)
+# Step 5: 🔐 Groups and Group Policy (AGDLP)
 
-### Step 5: Creating groups and applying GPOs
+### Step 5.1: Creating groups and applying GPOs
 ![Screenshot](../screenshots/Creating-groups/CreateGroup1.png)
 - Created another OU in domain named **Groups**.
 
@@ -33,7 +33,7 @@
 ![Screenshot](../screenshots/Creating-groups/CreateGroup9.png)
 - This image shows the groups that inside of the Admin-Access.
 
-### Step 5.1: Adding users inside of their corresponding groups
+### Step 5.2: Adding users inside of their corresponding groups
 ![Screenshot](../screenshots/AddingUsersToGroups/AddUsers1.png)
 - This image shows the users that are assigned to their corresponding Global security groups.
 
@@ -41,14 +41,14 @@
 - This image shows the Users that is assigned to their Global security groups.
 - Note: I created another 3 users previously for the HR, Finance and Admin.
 
-### Step 5.2: Nesting Global security groups in Domain Local Groups
+### Step 5.3: Nesting Global security groups in Domain Local Groups
 ![Screenshot](../screenshots/AddingUsersToGroups/NestedGroups1.png)
 - Global group of each department is nested inside of the domain local group to access the specific feature that the domail local group has and these Domain Local groups will later be used in GPO assignments to grant specific permissions.
 
 ![Screenshot](../screenshots/AddingUsersToGroups/NestedGroups3.png)
 - This image list the all of the members in each of the Domain local groups the Access Groups and Admin Groups.
 
-### Step 5.3: Applying GPO
+### Step 5.4: Applying GPO
 ![Screenshot](../screenshots/Creating-GPO/CreateGPO2.png)
 - In Group Policy Management, Created a new GPO object.
 
@@ -78,4 +78,4 @@
 - In this image I logged in as the Domain user and open CMD As administrator to check if the policy is already applied.
 
 
-⬅️ [Previous: Client Domain Join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](07-troubleshooting.md)
+⬅️ [Previous: Client Domain Join](05-client-domain-join.md) | [Next: Testing and Troubleshooting ➡️](07-testing-and-troubleshooting.md)

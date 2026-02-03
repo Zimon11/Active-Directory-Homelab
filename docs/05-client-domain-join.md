@@ -1,8 +1,8 @@
 ⬅️ [Previous: Active Directory Installation and Configuration](04-ad-installation-configuration.md) | [Next: Groups and GPO ➡️](06-groups-and-gpo.md)
 
-# 💻 Client Configuration and Domain Join
+# Step 4: 💻 Client Configuration and Domain Join
 
-### Step 4: Set up client computer and join it into domain
+### Step 4.1: Set up client computer and join it into domain
 ![Screenshot](../screenshots/Configuring-Windows-Client/Configure-WC1.png)
 - Installed Windows 11 client and configured its DNS to point to the Domain Controller’s IP address in preparation for domain joining.
 

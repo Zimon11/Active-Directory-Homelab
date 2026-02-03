@@ -1,15 +1,15 @@
 ⬅️ [Previous: Installation](03-installation.md) | [Next: Client Domain join ➡️](05-client-domain-join.md)
 
-# 🧩 Active Directory Configuration
+# Step 3: 🧩 Active Directory Configuration
 
-### Step:3 Installing Active Directory Domain Services
+### Step 3.1: Installing Active Directory Domain Services
 ![Screenshot](../screenshots/AD_DS-Installation/AD-Installation-2.png)
 - Selected the role Active Directory Domain Services.
 
 ![Screenshot](../screenshots/AD_DS-Installation/AD-Installation-4.png)
 - Successfully installed ADDS into the server.
 
-### Step:3.1 Promoting the server to Domain Controller
+### Step 3.2: Promoting the server to Domain Controller
 ![Screenshot](../screenshots/DC-Promote/DC-promote2.png)
 - Promoted the server to a Domain Controller and created a new forest named **adlab.local**.
 
@@ -23,7 +23,7 @@
 - Completed the prerequisites check and verified system readiness before finalizing the promotion.
 - The DNS delegation warning appeared because this is a new forest with no existing parent DNS zone. This is expected behavior and does not affect functionality.
 
-### Step 3.2: Post-Installation Verification and DNS Reconfiguration
+### Step 3.3: Post-Installation Verification and DNS Reconfiguration
 ![Screenshot](../screenshots/DC-Promote/ServerManagerUI.png)
 - Verified successful installation and promotion of the server by confirming that Active Directory Domain Services and DNS are both running with healthy status in Server Manager.
 
@@ -34,7 +34,7 @@
 ![Screenshot](../screenshots/DC-Promote/DNS-test.png)
 - Tested DNS functionality by resolving the domain name to confirm proper name resolution.
 
-### Step 3.3: Creating Organizational Units (OUs) separated by Department
+### Step 3.4: Creating Organizational Units (OUs) separated by Department
 ![Screenshot](../screenshots/Creating-OUs/OU-Creation2.png)
 - Created an OU for Admins it separated from the other departments.
 - Admins OU is separate for privileged accounts.
@@ -44,7 +44,7 @@
 - Created each departments OUs: HR, IT, and Finance.
 - Each department contains Users and Computers sub-OUs for better organization and security management.
 
-### Step 3.4: Creating User for the User OU
+### Step 3.5: Creating User for the User OU
 ![Screenshot](../screenshots/Creating-OUs/OU-Creation5.png)
 - Create a User for the IT Department.
 

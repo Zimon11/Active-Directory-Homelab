@@ -1,8 +1,8 @@
 ⬅️ [Previous: Lab Architecture](02-lab-architecture.md) | [Next: Active Directory Installation and Configuration ➡️](04-ad-installation-configuration.md)
 
-# ⚙️ Installation and Initial Setup
+# Step 1: ⚙️ Installation and Initial Setup
 
-### Step:1 Hyper-V and Virtual Machines Setup
+### Step 1.1: Hyper-V and Virtual Machines Setup
 ![Screenshot](../screenshots/HyperV-CreatingVm/Create-VirtualMachines.png)
 - Set up the lab environment by creating two virtual machines (Server and Client).
 - Allocated the systen resources and ready both of the virtual machine for installation.
@@ -13,7 +13,7 @@
 ![Screenshot](../screenshots/HyperV-CreatingVm/VMs-Network-Adapter-2.png)
 - Ensured that both VMs are connected into the same switch for a proper communication between server and client.
 ---
-### Step:2 Windows Server installation and configuration
+### Step 1.2: Windows Server installation and configuration
 ![Screenshot](../screenshots/Windows-Server-Installation/WS-Installation-1.png)
 - Set a strong password for local Administrator.
 

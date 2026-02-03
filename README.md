@@ -31,8 +31,8 @@ organizational unit design, group-based access control, and Group Policy.
 - [Installation & Initial Setup](docs/03-installation.md)
 - [Active Directory Configuration](docs/04-ad-installation-configuration.md)
 - [Client Domain Join](docs/05-client-domain-join.md)
-- [Groups and Group Policy (AGDLP)](docs/06-groups-and-gpo.md)
-- [Troubleshooting](docs/07-troubleshooting.md)
+- [Groups and GPO (AGDLP)](docs/06-groups-and-gpo.md)
+- [Testing and Troubleshooting](docs/07-testing-and-troubleshooting.md)
 - [Lessons Learned](docs/08-lessons-learned.md)
 
 ---

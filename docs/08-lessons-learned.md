@@ -1,6 +1,6 @@
 
-⬅️ [Previous: Groups and GPO](07-groups-and-gpo.md)
+⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md)
 
 📚 Lessons Learned
 
-⬅️ [Previous: Groups and GPO](07-groups-and-gpo.md)
+⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md)
