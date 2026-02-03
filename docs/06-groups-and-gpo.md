@@ -1,5 +1,4 @@
-
-⬅️ [Previous: Troubleshooting](06-troubleshooting.md) | [Next: Lessons Learned ➡️](08-lessons-learned.md)
+⬅️ [Previous: Client Domain Join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](07-troubleshooting.md)
 
 # 🔐 Groups and Group Policy (AGDLP)
 
@@ -78,4 +77,4 @@
 - In this image I logged in as the Domain user and open CMD As administrator to check if the policy is already applied.
 
 
-⬅️ [Previous: Troubleshooting](06-troubleshooting.md) | [Next: Lessons Learned ➡️](08-lessons-learned.md)
+⬅️ [Previous: Client Domain Join](05-client-domain-join.md) | [Next: Troubleshooting ➡️](07-troubleshooting.md)
