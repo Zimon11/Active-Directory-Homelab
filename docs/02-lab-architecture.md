@@ -2,7 +2,7 @@
 
 # 🏗️ Lab Architecture
 
-## Lab Architecure Overview
+## Overview
 This lab simulates a small enterprise virtual environment using Hyper-V. The setup includes a Windows server 2025 with a Active Directory Domain Services(Domain Controller) and a Windows 11 client both installed into the virtual machine which is the client domain joined worsktation and the server  is connected within the same virtual network switch to be able to connect these 2 devices and to be able to demonstrate a centralized management, user management and policy enforcement using the AD DS tool.
 
 ![Pics](../pics/Lab-Architecture.png)
@@ -31,8 +31,10 @@ This lab simulates a small enterprise virtual environment using Hyper-V. The set
 #### Role:
 - Domain-joined client computer
 - Used to test domain user logon and Group Policy application
-- IP Configuration: DHCP (Router)
-- DNS Configuration: Points to Domain Controller IP
+#### IP Configuration:
+- DHCP (Router)
+#### DNS Configuration:
+- Points to Domain Controller IP
 ---
 
 ### Virtualization Platform
