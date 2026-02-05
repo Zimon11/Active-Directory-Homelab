@@ -19,7 +19,7 @@
 
 ### Step 6.3: Troubleshooting and Temporarily fixed the Domain logon issue
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot10.jpg)
-- To fix the issue I logged-in in the client using either Local Administrator to perform troubleshooting.
+- To fix the issue I logged-in in the client using Local Administrator to perform troubleshooting.
 
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot1.png)
 - Opened the Local Security Policy console using secpol.msc.
