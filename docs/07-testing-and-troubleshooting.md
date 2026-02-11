@@ -72,13 +72,34 @@
 
 ### Step 7.5: Issue encountered 2: Remote Desktop Service Logon in HR workstation
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot17.jpg)
-- The same problem occur from the IT workstation in the previous step in HR workstation.
-- In this step I realized that using a VMs when logging-in in a domain using domained join devices even though they have the same virtual switch, The VM will consider it as a Remote Desktop Access so when I tried to logged-in using a domain user it prompted me an RDP error.
+- The same login issue occurred on the HR workstation as we saw previously on the IT workstation.
+- In this step I realized that on some virtual machines, even console logins are treated as Remote Desktop (Logon Type 10) and in this lab environment the login session was evaluated by Windows as a Remote Interactive logon(Logon type 10). This caused the RDP error for HR users, even though they were logging in through VM console.
 - To fix the issue I also included the RDP rights in GPO of HR Domain Local groups.
-- Note that in a real environment where devices is connected physically I don't need to configure logon rights in this lab I only do it for troubleshooting, practising applying GPOs and To be able to Test the connections of my lab devices. Also note that RDP rights must only configured carefully, in this lab I only add the RDP rights into HR GPO to be able login, its not recommended in real environment because devices where connected physically so even though RDP is disabled, domain users that has the logon rights will be able to log in their accounts.
+- Note that in a physical environment, users logging in directly at the workstation typically generate an Interactive logon (Logon Type 2), which only requires the **"Allow log on locally"** right. Remote Desktop rights are only required when access is performed through Remote Desktop Services. In this virtual lab, the session was treated as Remote Interactive, which required additional logon rights.
+
+![Screenshot](../screenshots/Troubleshoot/Eventvwr1.png)
+- I logged in as Administrator in the HR workstation to check the logs on event viewer specifically the events on failed logons.
+- In this image shows that logs of the HR workstation and filtered out those failed logons.
+
+![Screenshot](../screenshots/Troubleshoot/Eventvwr2.png)
+- This image shows that the issue of the failed logon was because of the requested logon type the logon type 10. This logon type means Remote interactive so even though the user was logging in through VM's console it behaves like a Remote Access in some virtual machines, this happens in many virtual machines where console access behave like RDP.
+- Here is the detailed event description
+An account failed to log on.
+Subject:
+	Security ID:		SYSTEM
+	Account Name:		HR-PC01$
+	Account Domain:		ADLAB
+	Logon ID:		0x3E7
+Logon Type:			10
+Account For Which Logon Failed:
+	Security ID:		NULL SID
+	Account Name:		KMarjolino
+	Account Domain:		ADLAB
+Failure Information:
+	Failure Reason:		The user has not been granted the requested logon type at this machine.
 
 ![Screenshot](../screenshots/Troubleshoot/Troubleshoot18.png)
 - Successfully logged-in as HR user in HR workstation.
-
 - Open CMD as administrator and verified the GPO in the HR workstation if applied correctly.
+
 ⬅️ [Previous: Groups and GPO](06-groups-and-gpo.md) | [Next: Lessons Learned➡️](08-lessons-learned.md)
