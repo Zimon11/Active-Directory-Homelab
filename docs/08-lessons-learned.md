@@ -1,7 +1,7 @@
 
-⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md)
+⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md) | [Next: Project Validation➡️](09-project-validation.md)
 
-📚 Lessons Learned
+# 📚 Lessons Learned
 ### Active Directory Design
 #### Importance of separating administrative accounts
 - Separating the priveledged account from the non-priviledged can prevent the risk of Over Priveledged, also when applying GPOs it will be more efficient to do so because of the separation of accounts.
@@ -37,4 +37,4 @@
 - Domain Controllers require a static IP address to maintain consistent DNS resolution and domain communication. Because Active Directory depends heavily on DNS, changing IP addresses would disrupt domain services, authentication, and client connectivity.
 
 
-⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md)
+⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md) | [Next: Project Validation➡️](09-project-validation.md)
