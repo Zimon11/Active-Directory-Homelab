@@ -1,5 +1,5 @@
 
-⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md) | [Next: Project Validation➡️](09-project-validation.md)
+⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md) | [Next: Validation and Additional](09-validation-and-additional.md)
 
 # 📚 Lessons Learned
 ### Active Directory Design
@@ -36,5 +36,4 @@
 #### Importance of static IP configuration for Domain Controllers
 - Domain Controllers require a static IP address to maintain consistent DNS resolution and domain communication. Because Active Directory depends heavily on DNS, changing IP addresses would disrupt domain services, authentication, and client connectivity.
 
-
-⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md) | [Next: Project Validation➡️](09-project-validation.md)
+⬅️ [Previous: Testing and Troubleshooting](07-testing-and-troubleshooting.md) | [Next: Validation and Additional](09-validation-and-additional.md)
