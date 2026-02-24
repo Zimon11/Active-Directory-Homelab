@@ -40,4 +40,17 @@
 
 ![Screenshot](../screenshots/Extra/Validation2.png)
 - In the IT workstation, Logged-in as the IT Employee and verified that the GPO security filtering is working properly and the control panel of this group is still working.
+
+### Password Reset
+![Screenshot](../screenshots/Extra/PasswordReset1.png)
+- Search the user that will reset the password.
+
+![Screenshot](../screenshots/Extra/PasswordReset2.png)
+- Click the Reset password in the options.
+
+![Screenshot](../screenshots/Extra/PasswordReset3.png)
+- Use a strong password for the user.
+
+![Screenshot](../screenshots/Extra/PasswordReset4.png)
+- The user password was successfully changed.
 ⬅️ [Previous: Lessons Learned](08-lessons-learned.md)
