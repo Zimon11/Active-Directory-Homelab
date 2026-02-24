@@ -53,4 +53,21 @@
 
 ![Screenshot](../screenshots/Extra/PasswordReset4.png)
 - The user password was successfully changed.
+
+### RBAC Validation
+#### Validation in the HR workstation
+![Screenshot](../screenshots/Extra/Validation4.png)
+- Logged-in in the HR workstation using the IT user credentials.
+
+![Screenshot](../screenshots/Extra/Validation5.png)
+- The logged-in failed due to the restriction of the GPO that is added in the HR workstation.
+- Only HR user will be able to logged-in in the HR workstation.
+
+#### Validation in the IT workstation
+![Screenshot](../screenshots/Extra/Validation6.png)
+- Logged-in in the IT workstation using the HR user credentials.
+
+![Screenshot](../screenshots/Extra/Validation7.png)
+- The logged-in failed and also show the same error in the HR workstation thats because of the restriction that has been added into the GPO IT workstation.
+- Only IT users will be able to logged-in in the IT workstation.
 ⬅️ [Previous: Lessons Learned](08-lessons-learned.md)
