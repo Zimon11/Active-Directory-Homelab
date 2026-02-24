@@ -34,7 +34,7 @@ organizational unit design, group-based access control, and Group Policy.
 - [Groups and GPO (AGDLP)](docs/06-groups-and-gpo.md)
 - [Testing and Troubleshooting](docs/07-testing-and-troubleshooting.md)
 - [Lessons Learned](docs/08-lessons-learned.md)
-- [Validation and Additional](docs/09-additional.md)
+- [Validation and Additional](docs/09-validation-and-additional.md)
 ---
 
 ## 🚀 Status
